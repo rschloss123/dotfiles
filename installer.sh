@@ -1,12 +1,27 @@
-sudo apt-get update 
-sudo apt-get install -y wget
+#!/bin/bash
 
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+#######################
+# installer.sh        #
+# Rachel Schlossman   #
+#######################
+
+mkdir -p bak 
+cp ~/.bashrc ~/.tmux.conf ~/.vimrc bak
 
 sudo apt-get update
-sudo apt-get install -y vim
 sudo apt install -y tmux
-sudo apt-get install -y sublime-text
+sudo apt-get install -y curl
+sudo apt-get install -y vim-nox
+sudo apt-get install -y ctags
 
-cp .bashrc .tmux.conf .vimrc ~
+source ./min-install-vim
+source ~/rachel_dotfiles/seoul256-gnome-terminal/seoul256-dark.sh
+
+sudo apt update
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo add-apt-repository "deb https://download.sublimetext.com/ apt/stable/"
+sudo apt update
+sudo apt install -y sublime-text
+
+cp .bashrc .tmux.conf ~
