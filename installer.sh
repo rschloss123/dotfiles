@@ -14,7 +14,7 @@ sudo apt-get install -y curl
 sudo apt-get install -y vim-nox
 sudo apt-get install -y ctags
 
-source ~/dotfiles/seoul256-gnome-terminal/seoul256-dark.sh
+source ~/dotfiles/seoul256-dark.sh
 source ./min-install-vim
 
 sudo apt update
