@@ -1,0 +1,97 @@
+cp: cannot stat '/home/testuser2/.tmux.conf': No such file or directory
+cp: cannot stat '/home/testuser2/.vimrc': No such file or directory
+Hit:1 http://packages.osrfoundation.org/gazebo/ubuntu-stable xenial InRelease
+Hit:2 http://repo.mysql.com/apt/ubuntu xenial InRelease
+Hit:3 http://us.archive.ubuntu.com/ubuntu xenial InRelease
+Hit:5 http://us.archive.ubuntu.com/ubuntu xenial-updates InRelease
+Get:4 http://packages.ros.org/ros/ubuntu xenial InRelease [4,678 B]
+Hit:6 http://ppa.launchpad.net/pi-rho/dev/ubuntu xenial InRelease
+Hit:7 http://us.archive.ubuntu.com/ubuntu xenial-backports InRelease
+Hit:8 http://security.ubuntu.com/ubuntu xenial-security InRelease
+Hit:9 http://repository.spotify.com stable InRelease
+Hit:10 https://download.sublimetext.com apt/stable/ InRelease
+Err:4 http://packages.ros.org/ros/ubuntu xenial InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F42ED6FBAB17C654
+Hit:11 https://packages.hsr.io/ros/ubuntu xenial InRelease
+Hit:12 https://packages.hsr.io/tmc/ubuntu xenial InRelease
+Fetched 4,678 B in 1s (4,222 B/s)
+Reading package lists...
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://packages.ros.org/ros/ubuntu xenial InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F42ED6FBAB17C654
+W: Failed to fetch http://packages.ros.org/ros/ubuntu/dists/xenial/InRelease  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY F42ED6FBAB17C654
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+tmux is already the newest version (2.1-3build1).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.15.0-29 linux-headers-4.15.0-29-generic
+  linux-headers-4.15.0-43 linux-headers-4.15.0-43-generic
+  linux-headers-4.15.0-45 linux-headers-4.15.0-45-generic
+  linux-headers-4.15.0-46 linux-headers-4.15.0-46-generic
+  linux-image-4.15.0-29-generic linux-image-4.15.0-43-generic
+  linux-image-4.15.0-45-generic linux-image-4.15.0-46-generic
+  linux-modules-4.15.0-29-generic linux-modules-4.15.0-43-generic
+  linux-modules-4.15.0-45-generic linux-modules-4.15.0-46-generic
+  linux-modules-extra-4.15.0-29-generic linux-modules-extra-4.15.0-43-generic
+  linux-modules-extra-4.15.0-45-generic linux-modules-extra-4.15.0-46-generic
+  snapd-login-service ttf-liberation
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 432 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (7.47.0-1ubuntu2.13).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.15.0-29 linux-headers-4.15.0-29-generic
+  linux-headers-4.15.0-43 linux-headers-4.15.0-43-generic
+  linux-headers-4.15.0-45 linux-headers-4.15.0-45-generic
+  linux-headers-4.15.0-46 linux-headers-4.15.0-46-generic
+  linux-image-4.15.0-29-generic linux-image-4.15.0-43-generic
+  linux-image-4.15.0-45-generic linux-image-4.15.0-46-generic
+  linux-modules-4.15.0-29-generic linux-modules-4.15.0-43-generic
+  linux-modules-4.15.0-45-generic linux-modules-4.15.0-46-generic
+  linux-modules-extra-4.15.0-29-generic linux-modules-extra-4.15.0-43-generic
+  linux-modules-extra-4.15.0-45-generic linux-modules-extra-4.15.0-46-generic
+  snapd-login-service ttf-liberation
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 432 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+vim-nox is already the newest version (2:8.0.0134-1ubuntu1~ppa1~x).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.15.0-29 linux-headers-4.15.0-29-generic
+  linux-headers-4.15.0-43 linux-headers-4.15.0-43-generic
+  linux-headers-4.15.0-45 linux-headers-4.15.0-45-generic
+  linux-headers-4.15.0-46 linux-headers-4.15.0-46-generic
+  linux-image-4.15.0-29-generic linux-image-4.15.0-43-generic
+  linux-image-4.15.0-45-generic linux-image-4.15.0-46-generic
+  linux-modules-4.15.0-29-generic linux-modules-4.15.0-43-generic
+  linux-modules-4.15.0-45-generic linux-modules-4.15.0-46-generic
+  linux-modules-extra-4.15.0-29-generic linux-modules-extra-4.15.0-43-generic
+  linux-modules-extra-4.15.0-45-generic linux-modules-extra-4.15.0-46-generic
+  snapd-login-service ttf-liberation
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 432 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+exuberant-ctags is already the newest version (1:5.9~svn20110310-11).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.15.0-29 linux-headers-4.15.0-29-generic
+  linux-headers-4.15.0-43 linux-headers-4.15.0-43-generic
+  linux-headers-4.15.0-45 linux-headers-4.15.0-45-generic
+  linux-headers-4.15.0-46 linux-headers-4.15.0-46-generic
+  linux-image-4.15.0-29-generic linux-image-4.15.0-43-generic
+  linux-image-4.15.0-45-generic linux-image-4.15.0-46-generic
+  linux-modules-4.15.0-29-generic linux-modules-4.15.0-43-generic
+  linux-modules-4.15.0-45-generic linux-modules-4.15.0-46-generic
+  linux-modules-extra-4.15.0-29-generic linux-modules-extra-4.15.0-43-generic
+  linux-modules-extra-4.15.0-45-generic linux-modules-extra-4.15.0-46-generic
+  snapd-login-service ttf-liberation
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 432 not upgraded.
+sourcing colorscheme
