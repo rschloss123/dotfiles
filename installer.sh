@@ -14,8 +14,6 @@ sudo apt-get install -y curl
 sudo apt-get install -y vim-nox
 sudo apt-get install -y ctags
 
-echo "sourcing colorscheme"
-source ~/dotfiles/seoul256-dark.sh
 echo "sourcing min-install-vim"
 source ./min-install-vim
 
@@ -29,3 +27,6 @@ sudo apt install -y sublime-text
 
 cd ~/dotfiles
 cp .bashrc .tmux.conf ~
+
+echo "sourcing colorscheme"
+source ~/dotfiles/seoul256-dark.sh
